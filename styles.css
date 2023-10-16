@@ -1,0 +1,49 @@
+body {
+    background-color: #f7f7f7; /* Background color for the whole page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align text */
+    user-select: none; /* Prevent text selection */
+}
+
+/* Styling for content containers */
+.container {
+    background-color: #fac8da; /* Background color for content containers */
+    max-width: 800px; /* Maximum width for content containers */
+    margin: 20px auto; /* Center-align content containers and add margin */
+    padding: 20px; /* Add padding inside content containers */
+    border-radius: 8px; /* Rounded corners for containers */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Styling for the page heading */
+h1 {
+    color: #333; /* Text color for the heading */
+    font-size: 28px; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family:Cormorant Garamond, serif; /* Font family for the heading */
+}
+
+/* Styling for the lyrics text */
+.lyrics {
+    color: #1a1919; /* Text color for lyrics */
+    font-size: 18px; /* Font size for lyrics */
+    line-height: 1.5; /* Line spacing for lyrics */
+    text-align: center; /* Center-align lyrics */
+}
+
+/* Styling for emotional lyrics */
+.emotional {
+    color:#440f09; /* Red color for emotional lyrics */
+    font-style: italic; /* Italics for emotional lyrics */
+}
+
+/* Styling for chorus lyrics */
+.chorus {
+    color: #0E344E; /* Blue color for chorus lyrics */
+    font-weight: bold; /* Bold text for chorus lyrics */
+}
+
+p:hover {
+    background-color: #dee2e6; /* Light gray background color on hover */
+}
